@@ -1,4 +1,7 @@
 # Angular AOT (Ahead Of Time) offline compilation example with Webpack
+# This is a great example for using ngc command line + webpack
+# however, npm start does not work.
+
 [![Dependency Status](https://david-dm.org/blacksonic/angular2-aot-webpack.svg)](https://david-dm.org/blacksonic/angular2-aot-webpack)
 [![devDependency Status](https://david-dm.org/blacksonic/angular2-aot-webpack/dev-status.svg)](https://david-dm.org/blacksonic/angular2-aot-webpack?type=dev)
 
