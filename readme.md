@@ -4,16 +4,20 @@
 
 This repository shows how to use the Angular command line offline compiler ```ngc``` with Webpack.
 
-> If you prefer the Webpack plugin provided by the Angular CLI, 
+This works:
+1. npm install
+2. npm install --only= dev
+
+> If you prefer the Webpack plugin provided by the Angular CLI,
 it can be found in a [separate repository](https://github.com/blacksonic/angular2-aot-cli-webpack-plugin).
 
-The application consists of 
+The application consists of
 a module (```src/app/modules/main.module.ts```)
-and a basic component (```src/app/components/hello-world.component.ts```) 
-with template (```src/app/components/hello-world.template.html```) 
+and a basic component (```src/app/components/hello-world.component.ts```)
+with template (```src/app/components/hello-world.template.html```)
 and component specific style (```src/app/components/hello-world.style.css```).
 
-When the application starts (```npm start```) 
+When the application starts (```npm start```)
 it generates the compiled files next to the modules and the components(```*.ngfactory.ts```).
 
 There is a different entry point for the JIT compiled(```src/app/bootstrap.ts```)
