@@ -1,19 +1,22 @@
 # Angular AOT (Ahead Of Time) offline compilation example with Webpack
+# This is a great example for using ngc command line + webpack
+# however, npm start does not work.
+
 [![Dependency Status](https://david-dm.org/blacksonic/angular2-aot-webpack.svg)](https://david-dm.org/blacksonic/angular2-aot-webpack)
 [![devDependency Status](https://david-dm.org/blacksonic/angular2-aot-webpack/dev-status.svg)](https://david-dm.org/blacksonic/angular2-aot-webpack?type=dev)
 
 This repository shows how to use the Angular command line offline compiler ```ngc``` with Webpack.
 
-> If you prefer the Webpack plugin provided by the Angular CLI, 
+> If you prefer the Webpack plugin provided by the Angular CLI,
 it can be found in a [separate repository](https://github.com/blacksonic/angular2-aot-cli-webpack-plugin).
 
-The application consists of 
+The application consists of
 a module (```src/app/modules/main.module.ts```)
-and a basic component (```src/app/components/hello-world.component.ts```) 
-with template (```src/app/components/hello-world.template.html```) 
+and a basic component (```src/app/components/hello-world.component.ts```)
+with template (```src/app/components/hello-world.template.html```)
 and component specific style (```src/app/components/hello-world.style.css```).
 
-When the application starts (```npm start```) 
+When the application starts (```npm start```)
 it generates the compiled files next to the modules and the components(```*.ngfactory.ts```).
 
 There is a different entry point for the JIT compiled(```src/app/bootstrap.ts```)
